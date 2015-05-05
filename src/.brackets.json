@@ -1,0 +1,11 @@
+{
+    "typescript": {
+        "target": "ES5",
+        "module": "amd",
+        "noImplicitAny": true,
+        "sources" : [
+            "**/*.d.ts",
+            "**/*.ts"
+        ]
+    }
+}

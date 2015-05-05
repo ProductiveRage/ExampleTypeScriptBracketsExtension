@@ -1,0 +1,10 @@
+# use glob syntax
+syntax: glob
+
+build/
+node_modules/
+
+# You might want to re-think these exclusions if you are including any non-TypeScript resource (such as a JavaScript library
+# with a TypeScript definition - in that case, you might need to allow .js files to be included in the source control)
+src/**.js
+src/**.js.map

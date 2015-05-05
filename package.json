@@ -1,0 +1,15 @@
+{
+    "name": "example.less-linter",
+    "title": "Example LESS Linter",
+    "description": "Example extension (written in TypeScript) for linting LESS style sheets",
+    "version": "0.1.0",
+    "repository": "bitbucket:example/DanRoberts/example-typescript-brackets-extension",
+    "engines": {
+        "brackets": ">=0.40.0"
+    },
+    "devDependencies": {
+        "grunt-ts": ">= 4.0.1",
+        "grunt-contrib-watch": ">= 0.6.1",
+        "grunt-contrib-copy": ">= 0.8.0"
+    }
+}
